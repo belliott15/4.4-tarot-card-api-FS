@@ -3,7 +3,7 @@
 DROP table if exists tarot_cards;
 
 CREATE table tarot_cards (
-    id BIGINT GENERATED ALWAYS AS IDENTITY, 
+    id INT GENERATED ALWAYS AS IDENTITY, 
     name VARCHAR NOT NULL, 
     number INT NOT NULL, 
     upright VARCHAR NOT NULL,
